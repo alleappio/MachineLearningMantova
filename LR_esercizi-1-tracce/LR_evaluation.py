@@ -12,7 +12,7 @@ def RSS(y_true, y_pred):
     :param y_true: target values
     :param y_pred: predicted y
     :return: RSS
-    '''    
+    '''
     # TODO
 
 
@@ -38,7 +38,8 @@ def MSE(y_true, y_pred):
     :param y_pred: predicted y
     :return: MSE
     '''
-    # TODO
+    n=len(y_true)
+    return RSS(y_true,y_pred)/n
 
 
 # -----------------------------------------------------
@@ -49,7 +50,7 @@ def MAE(y_true, y_pred):
     :param y_true: target values
     :param y_pred: predicted y
     :return: MAE
-    '''    
+    '''
     # TODO
 
 
@@ -63,6 +64,3 @@ def RMSE(y_true, y_pred):
     :return: RMSE
     '''
     # TODO
-
-
-
